@@ -17,7 +17,12 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <router-link class="navbar-item" to="/">Home</router-link>
-        <router-link class="navbar-item" to="/about">Go to about</router-link>
+        <router-link class="navbar-item" to="/about"
+          >List converters</router-link
+        >
+        <router-link class="navbar-item" to="/base-64"
+          >Base 64 converter</router-link
+        >
       </div>
     </div>
   </nav>
