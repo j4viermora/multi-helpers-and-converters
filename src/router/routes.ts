@@ -1,9 +1,9 @@
 import Home from '../views/Home.vue'
-import About from '../views/About.vue'
+import ListConverters from '../views/ListConverters.vue'
 import { RouteRecordRaw } from 'vue-router'
 
 export const routes: RouteRecordRaw[] = [
     { path: '/', component: Home },
-    { path: '/about', component: About },
+    { path: '/about', component: ListConverters },
     { path: '/base-64', component: () => import('../views/Base64.vue') },
 ]
